@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports News</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #007BFF;
+        }
+
+        .hero {
+            background: url('https://via.placeholder.com/1920x500') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 80px 10%;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .hero a {
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .categories {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 10%;
+            gap: 20px;
+        }
+
+        .categories div {
+            background: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .categories div img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .categories div h3 {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .news {
+            padding: 40px 10%;
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .news-item {
+            background: white;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .news-item img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .news-item h4 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .news-item p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sports News</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">Trending News</a></li>
+                <li><a href="#">Recent News</a></li>
+                <li><a href="#">Sports Articles</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Top Scorer to the Final Match</h2>
+        <p>The EuroLeague Finals Top Scorer is the individual award for the player that gained the highest points in the EuroLeague Finals.</p>
+        <a href="#">Continue Reading</a>
+    </section>
+
+    <section class="categories">
+        <div>
+            <img src="images/basketball-equipment 1.png" alt="Football">
+            <h3>Football</h3>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/150" alt="Basketball">
+            <h3>Basketball</h3>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/150" alt="Car Sport">
+            <h3>Car Sport</h3>
+        </div>
+    </section>
+
+    <section class="news">
+        <h2>Trending News</h2>
+        <div class="news-grid">
+            <div class="news-item">
+                <img src="https://via.placeholder.com/300" alt="News 1">
+                <h4>6-Year-Old Horse Dies at Belmont Park</h4>
+                <p>After a race injury, a young horse succumbed to its injuries.</p>
+            </div>
+            <div class="news-item">
+                <img src="https://via.placeholder.com/300" alt="News 2">
+                <h4>Savilla Blank Embraces Longer Seasons</h4>
+                <p>Savilla Blank discusses her strategy for the upcoming season.</p>
+            </div>
+            <div class="news-item">
+                <img src="https://via.placeholder.com/300" alt="News 3">
+                <h4>Ryan Garcia Fights Online</h4>
+                <p>Ryan Garcia addresses his critics with a strong online presence.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sports News. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
