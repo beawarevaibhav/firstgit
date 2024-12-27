@@ -1,0 +1,183 @@
+
+.main img{
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 0%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(Rectangle\ 22000\ \(1\).png);
+
+}
+.nav ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    
+    
+}
+.nav li{
+    margin: 18px;
+    list-style: none;
+    position: relative;
+    font-size: 10px;
+    bottom: 15px;
+    right: 30px;
+    
+    
+}
+.pho{
+    position: relative;
+    bottom: 70px;
+    left: 120px;
+    
+    
+}
+.pho img{
+    height: 30px;
+    
+}
+.box{
+    height: 25px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: rgb(112, 112, 146);
+    position: relative;
+    left: 850px;
+    bottom: 100px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.ph img{
+    position: relative;
+    bottom: 133px;
+    left: 862px;
+    
+    
+    
+}
+.tex{
+    position: relative;
+    bottom: 162px;
+    left: 885px;
+    color: rgb(252, 250, 248);
+    font-size: 13px;
+    
+}
+.img1 img{
+    height: 350px;
+    position: relative;
+    bottom: 50px;
+    left: 195px;
+    
+
+}
+.img2 img{
+    height: 255px;
+    
+    position: relative;
+    bottom: 370px;
+    left: 50px;
+}
+.tex2{
+    position: relative;
+    bottom: 600px;
+    left: 130px;
+
+}
+.tex3{
+    position: relative;
+    bottom: 630px;
+    left: 130px;
+    opacity: 0.8;
+    
+    
+}
+.tex4{
+    position: relative;
+    bottom: 655px;
+    left:130px;
+    opacity:0.7
+    
+    
+}
+.tex5{
+    position: relative;
+    bottom: 680px;
+    left: 130px;
+    opacity:0.6;
+    
+}
+.box1{
+    border: 2px solid black;
+    height: 25px;
+    width: 70px;
+    position: relative;
+    
+    left: 660px;
+    border-radius: 2px;
+    text-align: center;
+    background-color: rgb(170, 197, 196);
+    border-style: none;
+    color: rgb(94, 153, 149);
+    bottom: 990px;
+    
+}
+.img3 img{
+    position: relative;
+    left: 660px;
+    bottom: 980px;
+    
+}
+.tex6 h3{
+    position: relative;
+    left: 665px;
+    bottom: 1005px;
+    
+}
+.tex7 h3{
+    position: relative;
+    left: 665px;
+    bottom: 1020px;
+    opacity: 0.7;
+}
+.img4 img{
+    position: relative;
+    left: 660px;
+    bottom: 1020px;
+}
+.tex8 h3{
+    position: relative;
+    left: 660px;
+    bottom: 1040px;
+    
+}
+.tex9 h3{
+    position: relative;
+    left: 660px;
+    bottom: 1060px;
+    opacity: 0.7;
+}
+.tex10 h5{
+    position: relative;
+    left: 300px;
+    bottom: 1300px;
+    opacity: 0.9;
+}
+.tex11 h5{
+    position: relative;
+    left: 400px;
+    bottom: 1320px;
+    opacity: 0.9;
+}
+.tex12 h5{
+    position: relative;
+    left: 400px;
+    bottom: 1340px;
+    opacity: 0.9;
+}
